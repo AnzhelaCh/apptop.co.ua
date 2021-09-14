@@ -1,0 +1,60 @@
+form,select{
+    max-width: 450px!important;
+}
+
+.success {
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+    padding: 10%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    z-index: 10;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+#close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+}
+#createBankForm{
+    display: none;
+}
+
+#createBankForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.list-group {
+    list-style: none!important;
+}
+
+a.link-warning {
+    margin-right: 15px!important;
+}
+
+input#minLoanEdit {
+    position: relative!important;
+    z-index: -1!important;
+    background: gainsboro!important;
+}
+
+input#minLoan {
+    position: relative!important;
+    z-index: -1!important;
+    background: gainsboro!important;
+}
+
